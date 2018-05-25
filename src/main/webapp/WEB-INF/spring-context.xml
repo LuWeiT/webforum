@@ -26,8 +26,8 @@
     <bean id="emial" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <property name="host" value="smtp.qq.com"/>
         <property name="port" value="465"/>
-        <property name="username" value="769705252"/>
-        <property name="password" value="ehyutmfuvbwxbedf"/>
+        <property name="username" value="your qq email!"/>
+        <property name="password" value="your password"/>
         <property name="javaMailProperties">
             <props>
                 <prop key="mail.smtp.auth">true</prop>

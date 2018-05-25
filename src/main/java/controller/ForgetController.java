@@ -51,7 +51,7 @@ public class ForgetController {
                 result="something unknowed happened,please call the manager!";
             } else {
                 SimpleMailMessage message = new SimpleMailMessage();
-                message.setFrom("769705252@qq.com");
+                message.setFrom("your qq email!");
                 message.setTo(email);
                 message.setSubject("这是网络论坛的修改密码邮件！");
                 message.setText(list.get(0).getName() + "---您的验证码是：" + temp);
