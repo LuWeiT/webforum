@@ -1,0 +1,8 @@
+create database webforum;
+
+create table user_table(name varchar(20),password varchar(30),emil varchar(50));
+
+create table post_table(id INT NOT NULL AUTO_INCREMENT primary key,title text,
+                        content text,username varchar(20),replayNumber int,time datetime);
+
+create table reply_table(post_id int,reply_content text,username varchar(20),floor smallint,time datetime);
